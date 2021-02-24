@@ -1,0 +1,18 @@
+---
+title: 'Lab 6 Part 2: Rasters and Raster Algebra'
+author: "Katelin Seeto"
+date: "2/24/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(raster) ### NOTE: attaching this BEFORE tidyverse
+library(tidyverse)
+library(here)
+library(sf)
+library(fasterize)
+
+```
+
