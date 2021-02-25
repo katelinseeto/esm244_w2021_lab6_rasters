@@ -16,3 +16,29 @@ library(fasterize)
 
 ```
 
+Notes: 
+* .shp, .dbf, .prj, .shx shapefile for `sf` package to read
+* .tif raster made based on shapefiles
+
+
+### The data
+```{r}
+knitr::include_graphics('img/landsat.png')
+```
+
+
+## Load and inspect data
+```{r}
+landsat_file <- here('data/Landsat7.tif')
+
+ls_1 <- raster(landsat_file)
+ls_1
+
+
+```
+
+
+
+
+
+
